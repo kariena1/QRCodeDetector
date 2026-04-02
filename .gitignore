@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# IDE
+.idea/
+.vscode/
