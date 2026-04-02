@@ -27,3 +27,5 @@ macOS에서는 Windows용 `.exe`를 직접 빌드할 수 없어서, GitHub Actio
 - 실행이 끝나면 Artifacts에서 `QRViewer-windows.zip` 다운로드
 - 압축 해제 후 `QRViewer.exe` 실행
 
+## 맥북으로 알라딘 전자책보다가 빡쳐서만듬.. 주소도 같이 넣어주면 안되나요.?
+## 전자책에서 큐알링크 클릭하면 강의보러 가는기능 있으면 좋겠는데......
