@@ -24,8 +24,18 @@ macOS에서는 Windows용 `.exe`를 직접 빌드할 수 없어서, GitHub Actio
 
 - `.github/workflows/windows-exe.yml` 을 포함한 상태로 GitHub에 push
 - GitHub → Actions → **Build Windows EXE** 실행(또는 push로 자동 실행)
-- 실행이 끝나면 Artifacts에서 `QRViewer-windows.zip` 다운로드
-- 압축 해제 후 `QRViewer.exe` 실행
+- 실행이 끝나면 Artifacts에서 `QRViewer-windows-exe`의 `QRViewer.exe` 다운로드
+
+## GitHub Release 배포(단일 exe)
+- 릴리즈 태그를 생성해 push하면(`v1.0.0` 같은 형식) Windows 빌드 후 Release에 `QRViewer.exe`가 자동 첨부됩니다.
+- 예시:
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+- GitHub → Releases에서 해당 버전의 `QRViewer.exe`를 바로 배포하면 됩니다.
 
 ## 맥북으로 알라딘 전자책보다가 빡쳐서만듬.. 주소도 같이 넣어주면 안되나요.?
 ## 전자책에서 큐알링크 클릭하면 강의보러 가는기능 있으면 좋겠는데......
